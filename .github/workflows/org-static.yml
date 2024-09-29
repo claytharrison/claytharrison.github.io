@@ -11,7 +11,7 @@ on:
   #   branches: [$default-branch]
 
   # Allows you to run this workflow manually from the Actions tab
-  # workflow_dispatch:
+  workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -40,7 +40,16 @@ jobs:
           version: 28.2
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Get custom domain name
+        id: get-domain
+        run: |
+          if [ -f CNAME ]; then
+            DOMAIN_NAME=$(cat CNAME)
+          else
+            DOMAIN_NAME="${{ github.repository_owner }}.github.io"
+          fi
       - name: Get org-static-blog
+        id: get-org-static-blog
         run: |
           wget -O ${{ runner.temp }}/org-static-blog.el  https://raw.githubusercontent.com/bastibe/org-static-blog/refs/heads/master/org-static-blog.el\
       - name: Setup Pages
@@ -48,7 +57,9 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build blog
         run: |
-          emacs -Q --script build.el ${{ runner.temp }}/org-static-blog.el
+          mkdir drafts && touch drafts/dummy.org &&
+          emacs -Q --script build.el ${{ runner.temp }}/org-static-blog.el ${DOMAIN_NAME} &&
+          rmdir -r drafts
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
