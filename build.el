@@ -23,9 +23,9 @@
 
 (setq org-static-blog-publish-title "Clay Harrison's blog")
 (setq org-static-blog-publish-url "https://clayharris.online/")
-(setq org-static-blog-publish-directory "~/Projects/blog/")
-(setq org-static-blog-posts-directory "~/Projects/blog/posts/")
-(setq org-static-blog-drafts-directory "~/Projects/blog/drafts/")
+(setq org-static-blog-publish-directory "./blog/")
+(setq org-static-blog-posts-directory "./blog/posts/")
+(setq org-static-blog-drafts-directory "./blog/drafts/")
 (setq org-static-blog-enable-tags t)
 (setq org-export-with-toc nil)
 (setq org-export-with-section-numbers nil)
