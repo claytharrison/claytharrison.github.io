@@ -56,9 +56,8 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build blog
         run: |
-          echo $DOMAIN_NAME
-          mkdir drafts 
-          emacs -Q --script build.el ${{ runner.temp }}/org-static-blog.el claytharrison.github.io &&
+          mkdir drafts &&
+          emacs -Q --script build.el ${{ runner.temp }}/org-static-blog.el $DOMAIN_NAME &&
           rmdir drafts
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
