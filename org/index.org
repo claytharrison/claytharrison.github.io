@@ -1,0 +1,16 @@
+#+title: Clay Harrison
+
+This is my blog's homepage
+hai
+k
+
+#+begin_src python :results raw output :exports results
+from pathlib import Path
+
+paths = Path(".").glob("*/*.org")
+for p in paths:
+    if p != ".":
+        print(f"[[file:{p}][{p.parent}]]\n")
+#+end_src
+
+#+RESULTS:

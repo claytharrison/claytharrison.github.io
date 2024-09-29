@@ -1,0 +1,9 @@
+#+title: Test Post
+#+date: <2024-09-29 10:01>
+#+description: trying out org-static-blog
+#+filetags: test
+
+Welcom
+
+* This is me
+hi
