@@ -1,8 +1,0 @@
-#+title: Helloworld
-
-first test post
-asdff
-
-asdfnasdf
-
-[[file:../../index.org][index]]
