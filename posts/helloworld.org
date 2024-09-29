@@ -1,8 +1,0 @@
-#+title: How to Write a Blog Post
-#+date: <2024-09-29 Sun>
-#+filetags: computers emacs blog
-
-Step one: Install ~org-static-blog~. \\
-Step Two: Execute ~M-x org-static-blog-create-new-post~ and write the content. \\
-Step Three: Execute ~M-x org-static-blog-publish~ and upload to your webhost. \\
-Done.
