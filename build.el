@@ -46,9 +46,12 @@
   ;; This preamble is inserted at the beginning of the <body> of every page:
   ;;   This particular HTML creates a <div> with a simple linked headline
   (setq org-static-blog-page-preamble
-        "<div class=\"header\">
-  <a href=\"https://staticblog.org\">My Static Org Blog</a>
-  </div>")
+        (concat
+        "<div class=\"header\">"
+  "<a href=\""
+  domain-name
+  "\">Clay Harris(on-line)</a>"
+  "</div>"))
   
   ;; This postamble is inserted at the end of the <body> of every page:
   ;;   This particular HTML creates a <div> with a link to the archive page
@@ -56,7 +59,7 @@
   (setq org-static-blog-page-postamble
         (concat
          "<div id=\"archive\">"
-                "<a href=\"https://staticblog.org/archive.html\">Other posts</a>"
+                "<a href=\"https://claytharrison.github.io/archive.html\">Other posts</a>"
          "</div>"
          "<center>"
          "<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/3.0/\">"
