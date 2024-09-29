@@ -48,7 +48,7 @@
         "<div class=\"header\">"
   "<a href=\""
   domain-name
-  "\">Clay Harris(on-line)</a>"
+  "/\">Clay Harris(on-line)</a>"
   "</div>"))
   
   ;; This postamble is inserted at the end of the <body> of every page:
