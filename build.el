@@ -21,6 +21,12 @@
 (let ((my-org-static-blog-file (elt argv 0)))
   (require 'org-static-blog my-org-static-blog-file))
 
+(defun print-all-files-recursively (directory)
+  "Print all files recursively under DIRECTORY."
+  (let ((files (directory-files-recursively directory ".*")))
+    (dolist (file files)
+      (print file))))
+
 (let ((domain-name (elt argv 1)))
 
   (setq org-static-blog-publish-title "clay harrison's blog")
@@ -31,6 +37,7 @@
   (setq org-static-blog-enable-tags t)
   (setq org-export-with-toc nil)
   (setq org-export-with-section-numbers nil)
+  (print-all-files-recursively (expand-file-name "../"))
   (message org-static-blog-publish-url)
   (message org-static-blog-publish-directory)
   (message org-static-blog-posts-directory)
