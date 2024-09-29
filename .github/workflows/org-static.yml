@@ -50,7 +50,7 @@ jobs:
           else
             DOMAIN_NAME="${{ github.repository_owner }}.github.io"
           fi &&
-          emacs -Q --script build.el ${{ runner.temp }}/org-static-blog.el $DOMAIN_NAME
+          emacs -Q --script build.el ${{ runner.temp }}/org-static-blog.el ""
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
