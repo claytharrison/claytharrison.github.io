@@ -39,14 +39,6 @@ jobs:
           version: 28.2
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Get custom domain name
-        id: get-domain
-        run: |
-          if [ -f CNAME ]; then
-            DOMAIN_NAME=$(cat CNAME)
-          else
-            DOMAIN_NAME="${{ github.repository_owner }}.github.io"
-          fi
       - name: Get org-static-blog
         id: get-org-static-blog
         run: |
@@ -56,6 +48,11 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build blog
         run: |
+          if [ -f CNAME ]; then
+            DOMAIN_NAME=$(cat CNAME)
+          else
+            DOMAIN_NAME="${{ github.repository_owner }}.github.io"
+          fi &&
           mkdir drafts &&
           emacs -Q --script build.el ${{ runner.temp }}/org-static-blog.el $DOMAIN_NAME &&
           rmdir drafts
