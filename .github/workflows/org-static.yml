@@ -57,9 +57,9 @@ jobs:
       - name: Build blog
         run: |
           echo $DOMAIN_NAME
-          mkdir drafts && touch drafts/dummy.org &&
+          mkdir drafts 
           emacs -Q --script build.el ${{ runner.temp }}/org-static-blog.el claytharrison.github.io &&
-          rmdir -r drafts
+          rmdir drafts
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
