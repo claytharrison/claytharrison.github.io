@@ -1,0 +1,22 @@
+#+title: Starting with the lute
+#+date: <2024-09-29 16:25>
+#+description: Intro to the lute
+#+filetags: lute music
+
+"Back during the pandemic" I discovered a real joy of a YouTube channel. Rob MacKillop is a Scottish musician who plays a wide range of stringed instruments. I enjoy his taste in music and no-nonsense didactical approach to uploading. A typical video includes a performance of one lovely romantic piece or another on some gorgeous instrument that outdoes every axe at Guitar Center in terms of age, number of strings, or both.
+
+His videos encouraged me to pick up the Russian 7-string guitar for a time, an instrument which is nearly completely unknown yet nevertheless boasts a massive repertoire one could spend their entire life exploring. Unfortunately, the instrument needs a new bridge saddle, and I haven't yet had occasion to move any of my guitars with me from the US to Vienna anyway, so I haven't played in some years now. The guitar was cheap (only $200-something), and getting another would probably make more sense than flying my broken one over and getting it fixed, but it seems impossible to get them from Russia since the war now.
+
+I digress. MacKillop's main instrument for many years was the Renaissance lute, and I've had it in my head since 2020 that this would be a fine instrument to learn. Its tuning isn't too far off from the guitar, and I already know from the Russian guitar that extra strings are a whole lot of fun. Unfortunately, there's no new lute that's really worth the money until you get in the ~$1000 range, and I don't really like the idea of renting an instrument, so I let that ambition lie dormant while working on my master's degree.
+
+Since I finished school and started making a regular wage, I've been checking Austria's version of Craigslist (the venerable Willhaben) every so often to see if I can snag any deals. You'd think Austria would be a great place to find an early musical instrument, but for some reason there's a dearth of used lutes here. I missed one really nice one back in February, and that's basically the only decent one I've seen in the past year.
+
+On the other hand, Germany's Ebay (Kleinanzeigen) seems to always have a few decent lutes around, but making a weekend trip to visit one could quickly deplete any savings I'm trying to incur by choosing a used instrument. Eventually I got tired of waiting and messaged a seller who had indicated they were willing to ship their instrument. A couple of weeks later I stopped by the Post and picked up my new instrument -
+
+[[https://i.imgur.com/I1iAc0T.jpeg]]
+
+A label on the inside indicates it was built by Mauro Buffolo in 2015. I contacted his son and learned that Mauro built this lute for him from a kit. I didn't bother him long enough to figure out exactly which kit it comes from - it doesn't match any images of Early Music Shop lutes I can find. In any case, my teacher had a look at it during our first lesson and judged it to be a good student instrument, especially for the price I paid. This was a relief to hear, I had a hard time playing it the first couple of weeks, and I wasn't sure if it was just me adjusting to the instrument, or if I had a Lute-Shaped-Object on my hands.
+
+I've been practicing out of a book by Mr. MacKillop, [[https://robmackillop.net/introduction-to-the-lute/][Introduction to the Renaissance Lute for Lute and Guitar Players]]. It's not exactly a tutor - it spends a few pages introducing the basics of lute technique with text and a handful of exercises, with some attention paid to any adjustments a guitarist would need to make to their usual technique, then provides a half-dozen gentle pieces for practicing the elements of single-note and polyphonic playing. The rest of the book is a collection of repertoire pieces in alphabetical order, ranging from the simple but pleasing [[https://www.youtube.com/watch?v=HedMoXCjQ0c][A Toye]] to Dowland's mournfully intricate [[https://www.youtube.com/watch?v=-5Du5va3FXA][Lachrimae Pavan]].
+
+After playing around with the pieces in the book for about a month, I find myself wanting a proper tutor to follow, but for now Mr. MacKillop's book is a great place to get started. I've been enjoying discovering the world of lute music for the last few years, and hearing those Renaissance turnarounds emerge from my own fingers, haltingly and clumsily as they are, is immensely satisfying.
