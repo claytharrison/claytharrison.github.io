@@ -6,3 +6,4 @@ tmp/
 *.html
 *.xml
 *~
+!business-card.html
